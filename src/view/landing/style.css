@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #fff;
+}
+
+/* home section starts here */
+
+.home {
+    width: 100%;
+    height: 88vh;
+   position: relative;
+   padding: .7rem;
+   background-color: #fff;
+}
+
+.home .home-image {
+    background: url('../../assets/images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.home .home-image .home-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-image .home-text h1 {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.home .home-card {
+    width: 100%;
+    position: absolute;
+    top: 85%;
+}
+
+
+
+/* Unloack Dream  start section */
+.unlock-dream {
+    width: 100%;
+    padding: 3rem;
+    margin-top: 1rem;
+}
+
+
+/* Happy family start section */
+.happy-family{
+    width: 100%;
+    padding: 3rem;
+   
+}
+/* Happy Family  end section */
+
+
+/* property section start here */
+
+.our-property {
+    width: 100%;
+    padding: 3rem;
+    
+}
+
+
+/* property section end here */
+
+/* FAQ */
+
+.faq {
+    width: 100%;
+    padding: 3rem;
+
+}
+
